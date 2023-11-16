@@ -288,8 +288,219 @@
 #slide2 {
     display: flex;
     display: block;
+    height: 600px;
 
 }
+
+.slide3 {
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+
+}
+
+.slide3_photo {
+    position: relative;
+    z-index: -1;
+    width: 868px;
+    height: 502px;
+    left: 150px;
+
+}
+
+.slide3_text {
+    position: relative;
+    left: -95px;
+}
+
+/* Что такое оптимизация и зачем она нужна? */
+
+.slide3_block {
+    position: relative;
+    width: 773px;
+    height: 30px;
+    top: 61px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 29px;
+    line-height: 30px;
+    /* identical to box height, or 100% */
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #299CBD;
+}
+
+/* На просторах интернета несчетное количество действующих и даже  */
+.slide3_block2 {
+    position: relative;
+    width: 750px;
+    top: 95px;
+    padding: 1px;
+
+    font-family: 'Roboto-Light';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    /* or 159% */
+    display: flex;
+    align-items: center;
+
+    color: #4A4A4A;
+}
+
+.slide3_block2_1 {
+    position: relative;
+    width: 750px;
+    height: 112px;
+    top: 100px;
+
+    font-family: 'Roboto-Light';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    /* or 159% */
+    display: flex;
+    align-items: center;
+
+    color: #4A4A4A;
+}
+.slide3_block2_2 {
+    position: relative;
+    width: 750px;
+    height: 90px;
+    top: 100px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    /* or 159% */
+    display: flex;
+    align-items: center;
+
+    color: #4A4A4A;
+}
+
+.slide4 {
+    height: 447px;
+    background-image: url("second_bg.png");
+}
+
+.slide4_block {
+
+}
+
+/* По окончании обучения Вы сможете! */
+.slide4_text {
+    
+    position: relative;
+    width: 629px;
+    height: 24px;
+    left: 647px;
+    top: 88px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    /* or 100% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #EFEFEF;
+
+}
+
+/* Rectangle 4 copy 10 */
+.slide4_line {
+    position: relative;
+    width: 220px;
+    height: 7px;
+    left: 851px;
+    top: 130px;
+
+    background: #F9BF3B;
+}
+
+
+.slide4_block_img_circle {
+
+    width: 118px;
+    height: 118px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #B4E2FF;
+
+}
+
+.slide4_block_img_circle_1 {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Круг */
+.slide4_block_img {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: 150px;
+    width: 1140px;
+    left: 390px;
+    align-items:center;
+    justify-content: space-around;
+
+}
+
+.slide4_dopblock {
+    display: flex;
+    justify-content: center;
+
+}
+
+.slide4_block_txts {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top: 200px;
+    width: 1140px;
+
+}
+
+    /* Получать ощутимую прибыль */
+.slide4_block_txts_txt {
+
+    width: 210px;
+    height: 40px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    /* or 118% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #EFEFEF;
+
+}
+
 
 #images {
     position: relative;
@@ -390,7 +601,190 @@
 }
 
 
+.slide5 {
+    position: relative;
+    top: 88px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.slide5__img {
+    position: relative;
+    width: 154px;
+    height: 174px;
+}
 
 
+    /* Для всех участников интенсива предусмотрены бонусы и подарки. Н */
+.slide5__text {
+
+    width: 1161px;
+    height: 113px;
+
+    font-family: 'Roboto-Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    /* or 143% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #252525;
+
+}
+
+.slide5__button {
+    width: 313px;
+    height: 72px;
+
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+
+    font-family: Roboto-Light;
+    font-size: 21px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+
+}
+
+.slide5__button_text {
+    position: relative;
+    left: 8px;
+
+    font-family: 'Roboto-Light';
+    font-size: 21px;
+    line-height: 24px;
+/* identical to box height, or 114% */
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+}
 
 
+.slide6 {
+    position: relative;
+    top: 188px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.slide6__img {
+    width: 342px;
+    height: 201px;
+
+}
+
+.slide6__text1 {
+/* Первый вебинар состоится: */
+
+    width: 477px;
+    height: 30px;
+
+    font-family: 'Roboto-Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    /* identical to box height, or 100% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #252525;
+
+}
+
+.slide6__text2 {
+    /* 10 сентября в 20:00 по Москве */
+
+    width: 607px;
+    height: 31px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    /* or 100% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #299CBD;
+
+}
+
+.slide6__text3 {
+    /* Успейте записаться, количество мест ограничено! */
+
+    width: 578px;
+    height: 20px;
+
+    font-family: 'Roboto-Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 20px;
+    /* identical to box height, or 87% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #4A4A4A;
+
+}
+
+.slide7 {
+    position: relative;
+    top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Фон */
+
+    width: 1922px;
+    height: 169px;
+    z-index: -1;
+
+    background: #1A1A1A;
+
+}
+
+.slide7__text {
+
+    /* Служба поддержки  |  Политика конфиденциальности Позвоните нам  */
+
+    width: 407px;
+    height: 43px;
+
+    font-family: 'Roboto-Light';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    /* or 140% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #888888;
+
+}
